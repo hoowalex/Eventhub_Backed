@@ -56,7 +56,7 @@ MIDDLEWARE = [
 
 ]
 
-ROOT_URLCONF = 'EventHub.urls'
+ROOT_URLCONF = 'eventhub.urls'
 
 TEMPLATES = [
     {
@@ -73,7 +73,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'EventHub.wsgi.application'
+WSGI_APPLICATION = 'eventhub.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
